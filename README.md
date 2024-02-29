@@ -6,7 +6,7 @@ written by <a href="mailto:rebmann@informatik.uni-mannheim.de">Adrian Rebmann</a
 ## About
 This repository contains the prototype of the approach, evaluation, and data as described in
 
-*Rebmann, A., Rehse, J.-R., & van der Aa, H.: Uncovering Object-centric Data in Classical Event Logs for the Automated Transformation from XES to OCEL* accepted for the 20th International Conference on Business Process Management (BPM22)
+*Rebmann, A., Rehse, J.-R., & van der Aa, H.: Uncovering Object-centric Data in Classical Event Logs for the Automated Transformation from XES to OCEL* published in the proceedings of the 20th International Conference on Business Process Management (BPM22)
 
 ## Setup and Usage
 
