@@ -1,0 +1,29 @@
+Type, count
+purchase order item, 251734
+document, 76349
+invoice, 86868
+goods receipt, 122886
+vendor, 1975
+company, 4
+rejection indicator, 2
+transaction, 8
+approval, 1171
+delivery indicator, 2948
+service entry sheet, 27544
+quantity, 17563
+final invoice indicator, 8
+currency, 9
+approval purchase order, 944
+purchase requisition item, 46592
+doc category, 1
+debit memo, 3017
+invoice receipt, 95509
+price, 6619
+cumulative net worth, 25221
+change, 995
+classification text, 3
+payment term, 6
+purchase requisition, 438
+storage location, 258
+item number, 490
+source, 1

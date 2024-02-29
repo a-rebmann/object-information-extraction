@@ -1,0 +1,34 @@
+{
+    "object:type": [
+        "customer",
+        "package"
+    ],
+    "attibutes_to_category": {
+        "age": "object:property",
+        "bankaccount": "object:property",
+        "cost": "event:attribute",
+        "price": "event:attribute",
+        "weight": "event:attribute",
+        "case:concept:name": "object:instance",
+        "customers": "object:instance",
+        "producer": ""
+    },
+    "attibutes_to_obj_type": {
+        "age": [
+            "customers"
+        ],
+        "bankaccount": [
+            "customers"
+        ],
+        "cost": [],
+        "price": [],
+        "producer": [],
+        "weight": [],
+        "case:concept:name": [
+            "package"
+        ],
+        "customers": [
+            "customer"
+        ]
+    }
+}

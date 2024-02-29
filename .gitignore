@@ -1,0 +1,15 @@
+venv/
+venvn/
+env/
+.idea/
+__pycache__/
+input/logs/*
+input/evaluation/raw/*.xes
+input/evaluation/raw/*.jsonocel
+input/evaluation/sample/*
+output/evaluation/*.pkl
+resources/*.pkl
+.DS_Store
+.model/evaluation/*
+.model/same_as_hmm/*
+

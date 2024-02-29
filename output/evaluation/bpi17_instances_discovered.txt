@@ -1,0 +1,11 @@
+Type, count
+application, 31509
+offer, 42995
+resource, 149
+mail, 39707
+credit, 520
+term, 147
+potential fraud, 3282
+personal loan, 22
+
+

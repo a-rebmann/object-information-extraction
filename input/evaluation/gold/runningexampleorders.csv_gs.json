@@ -1,0 +1,53 @@
+{
+    "object:type": [
+        "customer",
+        "product",
+        "order",
+        "package",
+        "item"
+    ],
+    "attibutes_to_category": {
+        "cost": "object:property",
+        "producer": "object:property",
+        "age": "object:property",
+        "bankaccount": "object:property",
+        "price": "event:attribute",
+        "weight": "event:attribute",
+        "case:concept:name": "object:instance",
+        "customers": "object:instance",
+        "products": "object:instance",
+        "packages": "object:instance",
+        "items": "object:instance"
+    },
+    "attibutes_to_obj_type": {
+        "cost": [
+            "product"
+        ],
+        "producer": [
+            "product"
+        ],
+        "age": [
+            "customer"
+        ],
+        "bankaccount": [
+            "customer"
+        ],
+        "price": ["item", "order", "package", "product"],
+        "weight": ["item", "order", "package", "product"],
+        "case:concept:name": [
+            "order"
+        ],
+        "customers": [
+            "customer"
+        ],
+        "products": [
+            "product"
+        ],
+        "packages": [
+            "package"
+        ],
+        "items": [
+            "item"
+        ]
+    }
+}

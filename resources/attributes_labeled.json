@@ -1,0 +1,304 @@
+{
+    "BPI_Challenge_2013_closed_problems.xes": {
+        "ACTOR": [
+            "org:resource",
+            "org:group",
+            "resource country",
+            "organization country",
+            "org:role",
+            "organization involved",
+            "organizational entity"
+        ],
+        "A": [
+            "concept:name"
+        ],
+        "REC": [],
+        "BO": [
+            "product"
+        ],
+        "ASTATE": [
+            "lifecycle:transition"
+        ],
+        "BOSTATE": [],
+        "BO_PROP": []
+    },
+    "Road_Traffic_Fine_Management_Process.xes": {
+        "ACTOR": [
+            "org:resource"
+        ],
+        "A": [
+            "concept:name", "Task"
+        ],
+        "REC": [],
+        "BO": ["project"],
+        "ASTATE": [
+            "lifecycle:transition"
+        ],
+        "BOSTATE": [],
+        "BO_PROP": ["paymentAmount","lastSent", "expense", "totalPaymentAmount","vehicleClass","amount", "dismissal", "time:timestamp", "points", "matricola"]
+    },
+    "Receipt phase of an environmental permit application process ( WABO ) CoSeLoG project.xes": {
+        "ACTOR": [
+            "org:resource",
+            "org:group"
+        ],
+        "A": [
+            "concept:name"
+        ],
+        "REC": [],
+        "BO": [],
+        "ASTATE": [
+            "lifecycle:transition"
+        ],
+        "BOSTATE": [],
+        "BO_PROP": []
+    },
+    "CCC19 - Log XES.xes": {
+        "ACTOR": [
+            "org:group",
+            "org:resource",
+            "RESOURCE",
+            "creator"
+        ],
+        "REC": [],
+        "A": [
+            "concept:name",
+            "ACTIVITY",
+            "STAGE"
+        ],
+        "BO": [],
+        "ASTATE": [
+            "lifecycle:transition"
+        ],
+        "BOSTATE": [],
+        "BO_PROP": ["ROUND"]
+    },
+    "CreditRequirement.xes": {
+        "ACTOR": [
+            "org:resource"
+        ],
+        "A": [
+            "concept:name"
+        ],
+        "REC": [],
+        "BO": [],
+        "ASTATE": [
+            "lifecycle:transition"
+        ],
+        "BOSTATE": [],
+        "BO_PROP": []
+    },
+    "PermitLog.xes": {
+        "ACTOR": [
+            "org:role",
+            "org:resource",
+            "OrganizationalEntity"
+        ],
+        "REC": [],
+        "A": [
+            "concept:name",
+            "Task_0",
+            "Activity_0"
+        ],
+        "BO": ["Project_0", "Budget_0"],
+        "ASTATE": [],
+        "BOSTATE": [],
+        "BO_PROP": ["Cost Type_0", "RequestedAmount_0", "TotalDeclared"]
+    },
+    "Hospital Billing - Event Log.xes": {
+        "ACTOR": [
+            "org:group",
+            "org:resource",
+            "Producer"
+        ],
+        "ACTORI": [],
+        "A": [
+            "concept:name"
+        ],
+        "REC": [],
+        "BO": [],
+        "BOSTATE": [
+            "isCancelled",
+            "blocked",
+            "isClosed"
+        ],
+        "BO_PROP": ["speciality", "diagnosis", "flag", "msgCount", "version", "Number of executions", "Specialism code"],
+        "ASTATE": ["lifecycle:transition"]
+    },
+    "BPIC15_1.xes": {
+        "ACTOR": [
+            "org:resource",
+            "monitoringResource",
+            "Responsible_actor"
+        ],
+        "REC": [],
+        "A": [
+            "action_code",
+            "activityNameEN",
+            "concept:name",
+            "activityNameNL",
+            "Activity"
+        ],
+        "BO": [],
+        "ASTATE": [
+            "lifecycle:transition"
+        ],
+        "BOSTATE": [
+            "caseStatus"
+        ],
+        "BO_PROP": ["question", "dateStop", "dueDate"]
+    },
+    "Sepsis Cases - Event Log.xes": {
+        "ACTOR": [
+            "org:group"
+        ],
+        "REC": [],
+        "A": [
+            "concept:name"
+        ],
+        "RECI": [],
+        "BO": [],
+        "ASTATE": ["lifecycle:transition"],
+        "BOSTATE": [],
+        "BO_PROP": ["DiagnosticOther", "Age"]
+    },
+    "Detail_Incident_Activity.csv": {
+        "ACTOR": [
+            "Assignment Group"
+        ],
+        "A": [
+            "IncidentActivity_Type",
+            "IncidentActivity_Number"
+        ],
+        "REC": [],
+        "BO": [],
+        "ASTATE": [],
+        "BOSTATE": [],
+        "BO_PROP": ["KM number"]
+    },
+    "BPI_Challenge_2019.xes": {
+        "ACTOR": [
+            "org:resource",
+            "User",
+            "Company"
+        ],
+        "A": [
+            "concept:name"
+        ],
+        "REC": [],
+        "BO": ["Item Category", "Purchasing Document"],
+        "ASTATE": [],
+        "BOSTATE": [],
+        "BO_PROP": ["Cumulative net worth (EUR)"]
+    },
+    "BPI_Challenge_2018.xes": {
+        "ACTOR": [
+            "org:resource",
+            "department"
+        ],
+        "A": [
+            "activity",
+            "concept:name",
+            "subprocess"
+        ],
+        "REC": [],
+        "BO": [
+            "doctype"
+        ],
+        "ASTATE": [
+            "lifecycle:transition"
+        ],
+        "BOSTATE": [
+            "success"
+        ],
+        "BO_PROP": ["amount_applied3", "payment_actual3", "penalty_amount3", "year", "area", "cross_compliance", "risk_factor", "note"]
+    },
+    "BPI_Challenge_2017.xes": {
+        "ACTOR": [
+            "org:resource"
+        ],
+        "A": [
+            "concept:name",
+            "Action",
+            "Task"
+        ],
+        "REC": [],
+        "BO": [
+            "EventOrigin",
+            "EventID",
+            "OfferID"
+        ],
+        "ASTATE": [
+            "lifecycle:transition"
+        ],
+        "BOSTATE": ["Accepted", "Selected"],
+        "BO_PROP": ["OfferedAmount", "MonthlyCost", "NumberOfTerms", "FirstWithdrawalAmount", "CreditScore"]
+    },
+    "BPI_Challenge_2012.xes": {
+        "ACTOR": [
+            "org:resource"
+        ],
+        "A": [
+            "concept:name"
+        ],
+        "REC": [],
+        "RECI": [],
+        "BO": [],
+        "ASTATE": [
+            "lifecycle:transition"
+        ],
+        "BOSTATE": [],
+        "BO_PROP": []
+    },
+    "runningexample.jsonocel": {
+        "ACTOR": [
+
+        ],
+        "A": [
+
+        ],
+        "REC": [],
+        "RECI": [],
+        "BO": ["customers","items","orders","packages","products"],
+        "ASTATE": [
+
+        ],
+        "BOSTATE": [],
+        "BO_PROP": ["producer", "price", "bankaccount", "weight", "age", "cost"]
+    },
+    "o2c.jsonocel": {
+        "ACTOR": [
+        ],
+        "A": [
+        ],
+        "REC": [],
+        "RECI": [],
+        "BO": ["CHARGE",
+      "CREDIT_MEMO_DOC",
+      "CREDIT_MEMO_REQ",
+      "DEBIT_MEMO_DOC",
+      "DEBIT_MEMO_REQ",
+      "INVOICE_CANCEL",
+      "INVOICE_PRO_FORMA",
+      "ITEM_PROPOSAL",
+      "MATERIAL",
+      "ORD_WO_CHARGE",
+      "RETURNS_DELIVERY",
+      "RETURNS_DOC",
+      "WMS_TRANSFER"],
+        "ASTATE": [
+        ],
+        "BOSTATE": [],
+        "BO_PROP": []
+    },
+    "p2p.jsonocel": {
+        "ACTOR": [],
+        "A": [],
+        "REC": [],
+        "RECI": [],
+        "BO": [],
+        "ASTATE": [],
+        "BOSTATE": [],
+        "BO_PROP": []
+    }
+}
